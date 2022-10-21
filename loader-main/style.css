@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #161616;
+}
+
+.loader {
+    display: flex;
+    column-gap: .5rem;
+}
+.line {
+    width: 10px;
+    height: 10px;
+    background-color: #ff5555;
+    animation: scale 1400ms infinite;
+}
+
+@keyframes scale {
+    0% { transform: scaleY(1) }
+    20% { transform: scaleY(4) }
+    40% { transform: scaleY(1) }
+}
