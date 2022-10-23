@@ -8,9 +8,11 @@ async function randomimage() {
         const response = await fetch(url)
         const data = await response.json(url)
         img.src = data.message
+        contentOn()
     }
     catch {
         console.log('error');
+        contentOn()
     }
 }
 
