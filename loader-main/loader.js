@@ -10,7 +10,7 @@ randomBtn.addEventListener('click', function() {
 function contentOn() {
     setTimeout(() => {
         mack.classList.add('none')
-    }, 1500)
+    }, 1000)
 }
 
 window.addEventListener('load', function(){
