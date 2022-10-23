@@ -13,13 +13,15 @@ function contentOn() {
     }, 1500)
 }
 
-
-if(mackoff == false){
+window.addEventListener('load', function(){
     mack.classList.add('none')
-}
-    mack.addEventListener('load', function(){
-        
-        mack.classList.add('none')
-    })
+})
+
+
+
+mack.addEventListener('load', function(){
+    
+    mack.classList.add('none')
+})
 
 
