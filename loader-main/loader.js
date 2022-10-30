@@ -3,7 +3,7 @@ let mackoff = false
 
 let randomBtn = document.querySelector('.randomImage__btn')
 
-randomBtn.addEventListener('click', function() {
+btn.addEventListener('click', function() {
     mack.classList.remove('none')
 })
 
